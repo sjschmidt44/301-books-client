@@ -1,6 +1,6 @@
 'use strict'
 
-page('/home', app.bookController.index, app.adminController.verify);
+page('/', app.bookController.index, app.adminController.verify);
 page('/books/new', app.bookController.add);
 page('/books/search', app.bookController.search);
 page('/books/:book_id/update', app.bookController.fetch, app.bookController.update);
