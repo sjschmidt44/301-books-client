@@ -1,7 +1,7 @@
 'use strict';
 
 var app = app || {};
-var __API_URL__ = 'http://localhost:3000'; // TODO: Define the URL to your deployed API on Heroku
+var __API_URL__ = 'https://books-server-301.herokuapp.com'; // TODO: Define the URL to your deployed API on Heroku
 
 (function(module) {
   function errorCallback(err) {
